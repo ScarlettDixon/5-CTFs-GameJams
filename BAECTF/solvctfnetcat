@@ -1,0 +1,4 @@
+#!/bin/sh
+
+var=$(cat test)
+echo $var | grep -Eo '[0-9]{1,4}'

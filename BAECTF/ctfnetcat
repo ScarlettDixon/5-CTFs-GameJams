@@ -1,0 +1,30 @@
+#!/bin/sh
+
+#dest="nc primetime.baectf.com 443" 
+#login=$(echo ${pass}) | ${dest}
+#pass="terminaldisc"
+#alias login='echo "terminaldisc"'
+#login | $dest
+#while :
+#do
+#done
+#echo "${prime}"
+#$login
+#read $REPLY
+#echo $REPLY
+
+#expect "Enter password:"
+#send --"terminaldisc"
+
+# testfile
+
+echo "streetbauble" > pycr.txt
+dest="nc playyourcardsright.baectf.com 443"
+alias login='echo "streetbauble"'
+#login | $dest
+$dest < pycr.txt #| tee test
+
+
+#grep -Eo '[0-9]{1,4}'
+#expect -exact "Enter password: "
+#send -- "streetbauble\r"
