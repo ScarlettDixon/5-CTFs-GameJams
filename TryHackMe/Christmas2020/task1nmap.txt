@@ -1,0 +1,10 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2020-12-07 15:06 GMT
+Nmap scan report for 10.10.79.136
+Host is up (0.039s latency).
+Not shown: 65532 filtered ports
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   open   http
+9090/tcp closed zeus-admin
+
+Nmap done: 1 IP address (1 host up) scanned in 189.98 seconds

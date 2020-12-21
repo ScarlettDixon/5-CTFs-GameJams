@@ -1,0 +1,17 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-24 21:14 GMT
+Nmap scan report for 10.10.26.121
+Host is up (0.028s latency).
+Not shown: 65531 closed ports
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.4 (protocol 2.0)
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+999/tcp   open  http    SimpleHTTPServer 0.6 (Python 3.6.8)
+53267/tcp open  status  1 (RPC #100024)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 342.75 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-24 21:21 GMT
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-24 21:21 GMT
+Nmap scan report for 10.10.26.121
+Host is up (0.027s latency).
+Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds

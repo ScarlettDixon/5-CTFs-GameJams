@@ -1,0 +1,63 @@
+Go-Bust
+Dir
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.110.109
+[+] Threads:        10
+[+] Wordlist:       /home/scarlett/Afnom/SecLists/Discovery/Web-Content/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/07 16:18:53 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htaccess (Status: 403)
+/.htpasswd (Status: 403)
+/LICENSE (Status: 200)
+/api (Status: 301)
+/index.html (Status: 200)
+/server-status (Status: 403)
+===============================================================
+2020/12/07 16:19:34 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.110.109
+[+] Threads:        10
+[+] Wordlist:       /home/scarlett/Afnom/SecLists/Discovery/Web-Content/RobotsDisallowed-Top1000.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/07 16:19:34 Starting gobuster
+===============================================================
+//api/ (Status: 200)
+// (Status: 200)
+//?q=comment/reply/ (Status: 200)
+//?q=node/add/ (Status: 200)
+//?q=search/ (Status: 200)
+//?q=user/password/ (Status: 200)
+//?q=user/register/ (Status: 200)
+//?q=user/login/ (Status: 200)
+//?q=admin/ (Status: 200)
+//?q=filter/tips/ (Status: 200)
+//?level=12 (Status: 200)
+//?q=user/logout/ (Status: 200)
+//? (Status: 200)
+/?&what= (Status: 200)
+//api (Status: 301)
+//?q=logout/ (Status: 200)
+//?q=* (Status: 200)
+//?* (Status: 200)
+//?msk (Status: 200)
+//?q=contact/ (Status: 200)
+//?favorites (Status: 200)
+===============================================================
+2020/12/07 16:19:43 Finished
+===============================================================
+Complete
