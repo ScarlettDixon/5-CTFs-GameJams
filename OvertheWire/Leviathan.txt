@@ -1,0 +1,6 @@
+leviathan0: leviathan0
+leviathan1: rioGegei8m 
+(ls -a, cd ./.backup, cat bookmarks.html  | grep -r password)
+leviathan2: ougahZi8Ta          
+(./check, ltrace ./check, see line strcmp ("tes", "sex"), enter sex as password, whoami shows we are leviathan2)
+leviathan3:

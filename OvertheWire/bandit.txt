@@ -1,0 +1,24 @@
+ssh -l bandit0 -p 2220 bandit.labs.overthewire.org
+
+bandit0 : bandit0
+bandit1 : boJ9jbbUNNfktd78OOpsqOltutMc3MY1 (Remember to right click to paste)
+bandit2 : CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 (cat spaces\ in\ this\ filename)
+bandit3 : UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK (ls -a to find .hidden)
+bandit4 : pIwrPrtPN36QITSp3EQaw936yaFoFgAB (in -file07 , used file ./.*)
+bandit5 : koReBOKuIDDepwhWk7jZC0RTdopnAYKh (find . -size 1033c)
+bandit6 : DXjZPULLxYr17uwoI01bNLQbtFemEgo7 (Go to top dir, find . -size 33c -user bandit7 -group bandit6, cat ./var/lib/dpkg/info/bandit7.password)
+bandit7 : HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs (Search recursively for line with millionth nearby. grep -r millionth )
+bandit8 : cvX2JJa4CFALtqS87jk27qwqGhBM9plV (sort into ascending order and then look for the one alone. sort data.txt | uniq -u)
+bandit9 : UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR (use strings to search for only human readble. strings -a data.txt, strings -n 10  data.txt)
+bandit10: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk (decode the encoded file. base64 -d data.txt)  
+bandit11: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR (use the decription method for rot13 given to you,echo "Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
+bandit12: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu (create a temporary directory, then copy the main file over to it, de-hexdump the data file then use file to find out how it was compressed, 
+then decompress it using that algortithm, use file again to check if it needs decompressing again and repeat steps until decompressed. mkdir tmp/tmp1, cp data.txt /tmp/tmp1/data1.txt, xxd -r data1.txt > dehex1, file dehex1, cp dehex1 dehex2.bz2, bzip2 -d dehex2.bz2, file dehex2, cp dehex2 dehex3.gz, gzip -d dehex3.gz, file dehex3, cp dehex3 dehex4.tar, etc) 
+bandit13: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL (Use cat to read the sshkey.private, look at man ssh to see the manual on it and read through, use ssh -i ./sshkey.private bandit14@localhost to connect to Bandit14 using yes, use pwd to see the filepath, then use  cat /etc/bandit_pass/bandit14 to find the password)
+Bandit14: 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e (cd .ssh, vim authorized_keys)
+
+
+useful websites:
+Searching: https://www.howtoforge.com/tutorial/linux-find-command/
+cheat sheet: https://files.fosswire.com/2007/08/fwunixref.pdf
+hexdump info: http://www.linuxjournal.com/content/doing-reverse-hex-dump
