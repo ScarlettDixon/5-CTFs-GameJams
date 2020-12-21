@@ -1,0 +1,37 @@
+
+8V2L
+Possible: 2, 
+Confirmed: 1
+Def Not: 3, 4, 5, 6
+
+
+
+5b8cbd1932bc404ff9294a99807be1991f48db17
+
+502 - newer-user
+
+grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" file.txt
+
+find . | grep X1Uy | nc 10.8.6.247 6502
+
+wc -l /etc/passwd
+
+10.10.126.999
+
+cat 8V2L | grep 5b8cbd1932bc404ff9294a99807be1991f48db17
+
+ls -al | grep 8V2L
+
+ nc 10.8.6.247 6502
+
+
+find . | grep -v "Permission denied" | grep X1Uy
+
+find . 2>&1 | grep -v "Permission denied" | grep 8V2L
+ls -al | grep 8V2L
+grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" file.txt
+cat 8V2L | grep 5b8cbd1932bc404ff9294a99807be1991f48db17
+wc -l 8V2L
+
+
+find . | grep -v "Permission denied" | grep

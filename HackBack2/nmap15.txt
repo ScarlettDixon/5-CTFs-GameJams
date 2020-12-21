@@ -1,0 +1,25 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-26 15:18 BST
+Warning: 10.10.77.36 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.10.77.36
+Host is up (0.020s latency).
+Not shown: 65507 closed ports, 26 filtered ports
+PORT      STATE SERVICE VERSION
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+43233/tcp open  status  1 (RPC #100024)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 340.42 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-26 15:29 BST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.71 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-26 15:29 BST
+Nmap scan report for 10.10.16.38
+Host is up (0.035s latency).
+Not shown: 65532 closed ports
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 7.4 (protocol 2.0)
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+55463/tcp open  status  1 (RPC #100024)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.95 seconds

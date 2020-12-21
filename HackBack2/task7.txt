@@ -1,0 +1,14 @@
+10.10.29.117
+
+install showmount
+
+showmount -e 10.10.29.117
+sudo mount -t nfs 10.10.29.117:/mnt/ ~/Afnom/hackback2/mp/
+
+under creds.txt:
+don't forget these creds:
+username: andy
+password: noonewillguessthis123@
+
+
+find . -regextype posix-basic -regex '.*/.\{5,\}'

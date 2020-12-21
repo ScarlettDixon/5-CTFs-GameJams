@@ -1,0 +1,65 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-26 10:35 BST
+Stats: 0:03:08 elapsed; 0 hosts completed (1 up), 1 undergoing ACK Scan
+ACK Scan Timing: About 14.23% done; ETC: 10:57 (0:18:53 remaining)
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-26 10:44 BST
+Nmap scan report for ec2-54-171-244-180.eu-west-1.compute.amazonaws.com (54.171.244.180)
+Host is up (0.020s latency).
+All 65535 scanned ports on ec2-54-171-244-180.eu-west-1.compute.amazonaws.com (54.171.244.180) are filtered
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 105.04 seconds
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-26 10:48 BST
+Nmap scan report for ec2-54-171-244-180.eu-west-1.compute.amazonaws.com (54.171.244.180)
+Host is up (0.035s latency).
+Not shown: 65514 closed ports
+PORT      STATE    SERVICE          VERSION
+22/tcp    open     ssh              OpenSSH 7.4 (protocol 2.0)
+25/tcp    filtered smtp
+42/tcp    filtered nameserver
+111/tcp   open     rpcbind          2-4 (RPC #100000)
+135/tcp   filtered msrpc
+137/tcp   filtered netbios-ns
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+1512/tcp  filtered wins
+2049/tcp  open     nfs_acl          3 (RPC #100227)
+3268/tcp  filtered globalcatLDAP
+3269/tcp  filtered globalcatLDAPssl
+5555/tcp  filtered freeciv
+7177/tcp  filtered unknown
+8008/tcp  open     http
+10168/tcp filtered unknown
+11092/tcp filtered unknown
+20048/tcp open     mountd           1-3 (RPC #100005)
+20168/tcp filtered unknown
+38515/tcp open     nlockmgr         1-4 (RPC #100021)
+53057/tcp open     status           1 (RPC #100024)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8008-TCP:V=7.80%I=7%D=10/26%Time=5DB41688%P=x86_64-unknown-linux-gn
+SF:u%r(GetRequest,CC,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8
+SF:010/\r\nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS
+SF:-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\
+SF:r\nContent-Security-Policy:\x20frame-ancestors\r\n\r\n")%r(FourOhFourRe
+SF:quest,EF,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8010/nice%
+SF:20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection:\x20close\r\nX-Frame-Opti
+SF:ons:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Conten
+SF:t-Type-Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancesto
+SF:rs\r\n\r\n")%r(GenericLines,CB,"HTTP/1\.1\x20302\x20Found\r\nLocation:\
+SF:x20https://:8010\r\nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORI
+SF:GIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:
+SF:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\r\n\r\n")%r(
+SF:HTTPOptions,CB,"HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8010
+SF:\r\nConnection:\x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Pro
+SF:tection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nC
+SF:ontent-Security-Policy:\x20frame-ancestors\r\n\r\n")%r(RTSPRequest,CB,"
+SF:HTTP/1\.1\x20302\x20Found\r\nLocation:\x20https://:8010\r\nConnection:\
+SF:x20close\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x
+SF:20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nContent-Security-
+SF:Policy:\x20frame-ancestors\r\n\r\n")%r(SIPOptions,CB,"HTTP/1\.1\x20302\
+SF:x20Found\r\nLocation:\x20https://:8010\r\nConnection:\x20close\r\nX-Fra
+SF:me-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX
+SF:-Content-Type-Options:\x20nosniff\r\nContent-Security-Policy:\x20frame-
+SF:ancestors\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 169.25 seconds
