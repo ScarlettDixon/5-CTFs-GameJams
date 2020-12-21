@@ -1,0 +1,8 @@
+
+ssh:
+	The version used is lower than an attack that can use username enumeration
+Web:
+	Apache2 has no known vulns to exploit
+	Gobuster found monitoring which is an admin accessible location
+
+https://github.com/netbiosX/Default-Credentials/blob/master/Apache-Tomcat-Default-Passwords.mdown

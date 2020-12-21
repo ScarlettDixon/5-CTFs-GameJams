@@ -1,0 +1,34 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2019-10-30 15:34 GMT
+Nmap scan report for 10.10.10.146
+Host is up (0.085s latency).
+Not shown: 65532 filtered ports
+PORT    STATE  SERVICE VERSION
+22/tcp  open   ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp  open   http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+443/tcp closed https
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 143.96 seconds
+
+
+Port 22:
+
+Port 80:
+
+Hello mate, we're building the new FaceMash!
+Help by funding us and be the new Tyler&Cameron!
+Join us at the pool party this Sat to get a glimpse
+
+http://www.facemash.com/
+	contact_us.php
+	--not important
+
+10.10.10.146
+    index.php
+    upload.php
+    gallery.php
+    /.htpasswd (Status: 403)
+	/.htaccess (Status: 403)
+	/backup (Status: 301)
+	/cgi-bin/ (Status: 403)
+	/uploads (Status: 301)

