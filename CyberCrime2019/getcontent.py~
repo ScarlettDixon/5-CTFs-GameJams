@@ -1,0 +1,39 @@
+#!/usr/bin/python
+
+import sys, getopt, os
+
+def main(argv):
+
+	inputfile = ""
+
+	try:
+		opts, args = getopt.getopt(argv,"f:")
+	except getopt.GetoptError:
+		print("Invalid arguments.")
+		sys.exit(0)
+   
+	if len(opts) == 0:
+		print("Requires: file.")
+		sys.exit(0)
+   	
+	for opt, arg in opts:
+		if opt == "-f":
+			inputfile = arg
+		else:
+			print "Invalid arguments."
+			sys.exit(0)	
+
+	print("Reading from " + inputfile)
+
+	request_fd = open(inputfile, "r")
+	request = response_fd.read()
+	request_fd.close()
+
+	request.replace("POST /login HTTP/1.1", "POST /flag HTTP/1.1")
+	os.write(1,request)
+	#content_fd = open(inputfile + ".content", "w")
+	#content_fd.write(response[crlfpos+4:])
+	#content_fd.close()
+
+if __name__ == "__main__":
+   main(sys.argv[1:])

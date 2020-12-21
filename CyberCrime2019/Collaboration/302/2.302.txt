@@ -1,0 +1,32 @@
+HTTP/1.1 302 Found
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Location: /login
+Server: Microsoft-IIS/10.0
+X-Powered-By: PHP/7.2.19
+X-Powered-By: ASP.NET
+Date: Sat, 02 Nov 2019 13:12:23 GMT
+Content-Length: 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

