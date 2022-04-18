@@ -11,7 +11,7 @@ BAE CTF 2020 - The most recent CTF challenge undertaken, unfortunately started d
 
 ---
 
-CyberCrime 2019 - Team Underated - A set of varying challenges, some of which could be and were automated. The structure of the challenges wasn't as useful as some other CTFs (They were released days apart and at times not opportune to our team) but fun did occur
+CyberCrime 2019 - Team Underated - A set of varying challenges, some of which could be and were automated. The structure of the challenges wasn't as useful as some other CTFs (They were released days apart and at times not opportune to our team) but fun did occur.
 
 ---
 
@@ -35,7 +35,7 @@ Vulnhub - Attempted "Mr Robot" vulnerable VM but realised I still needed to deve
 
 ---
 
-24 Hour GameJam 2016 - I was still incredibly new to coding at this time, surrounded by veterans. I attempted to learn code from them and was very succesful. No code was created during this event.
+24 Hour GameJam 2016 - I was still incredibly new to coding at this time, surrounded by veterans. I attempted to learn code from them and was very successful. No code was created during this event.
 
 ---
 
